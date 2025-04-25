@@ -1,3 +1,9 @@
+fastapi
+uvicorn
 sqlalchemy
 alembic
 psycopg2-binary  # For PostgreSQL
+python-multipart  # for file uploads
+pandas
+openpyxl  # for Excel file support
+pydantic
