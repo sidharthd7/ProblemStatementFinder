@@ -1,13 +1,14 @@
-from fastapi import FastAPI, Depends, UploadFile, File, HTTPException
+from fastapi import FastAPI, Depends, UploadFile, File, HTTPException, Query
 from sqlalchemy.orm import Session
 from config.database import get_db
 from services.data_loader import load_excel_data
 from services.problem_analyzer import ProblemAnalyzer
 from repositories.problem_repository import ProblemRepository
 from models.schema import TeamProfile, ProblemStatement
-from typing import List, Tuple
+from typing import List, Tuple, Optional
 import json
 import tempfile
+from datetime import datetime
 
 app = FastAPI()
 problem_analyzer = ProblemAnalyzer()
@@ -45,23 +46,56 @@ async def get_problems(db: Session = Depends(get_db)):
 @app.post("/match-problems")
 async def match_problems(
     team_profile: TeamProfile,
+    min_score: float = Query(0.5, ge=0.0, le=1.0),
+    limit: int = Query(10, ge=1, le=50),
     db: Session = Depends(get_db)
 ):
     problem_repo = ProblemRepository(db)
     problems = problem_repo.get_all_problems()
     
-    # Convert DB models to Pydantic models for the analyzer
+    # Convert DB models to Pydantic models
     pydantic_problems = [ProblemStatement.from_orm(p) for p in problems]
     
-    # Rank problems
+    # Get ranked problems with detailed scores
     ranked_problems = problem_analyzer.rank_problems(pydantic_problems, team_profile)
     
+    # Filter by minimum score and limit results
+    filtered_problems = [
+        {
+            "problem": problem.dict(),
+            "total_score": total_score,
+            "score_breakdown": score_details
+        }
+        for problem, total_score, score_details in ranked_problems
+        if total_score >= min_score
+    ][:limit]
+    
     return {
-        "matches": [
-            {
-                "problem": problem.dict(),
-                "match_score": score
-            }
-            for problem, score in ranked_problems[:10]
-        ]
+        "matches": filtered_problems,
+        "total_results": len(filtered_problems),
+        "team_size": team_profile.team_size,
+        "analysis_timestamp": datetime.now().isoformat()
     }
+
+@app.get("/problems/search")
+async def search_problems(
+    query: str,
+    category: Optional[str] = None,
+    tech_stack: Optional[List[str]] = Query(None),
+    difficulty: Optional[str] = None,
+    db: Session = Depends(get_db)
+):
+    problem_repo = ProblemRepository(db)
+    problems = problem_repo.search_problems(
+        query=query,
+        category=category,
+        tech_stack=tech_stack,
+        difficulty=difficulty
+    )
+    return problems
+
+@app.get("/analytics/categories")
+async def get_category_stats(db: Session = Depends(get_db)):
+    """Get statistics about problem categories"""
+    problem_repo = ProblemRepository(db)
+    return problem_repo.get_category_statistics()
