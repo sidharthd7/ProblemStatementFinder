@@ -33,19 +33,22 @@ class FileProcessorService:
         Process uploaded Excel file and extract problem statements
         """
         try:
-            # Validate file extension
-            if not file.filename.endswith(('.xlsx', '.xls')):
-                raise FileProcessingError("Only Excel files (.xlsx, .xls) are allowed")
+            ext = os.path.splitext(file.filename)[1].lower()
+            if ext not in (('.xlsx', '.xls', '.csv')):
+                raise FileProcessingError("Only Excel (.xlsx, .xls) or CSV (.csv) files are allowed")
             
             # Save uploaded file temporarily
-            with tempfile.NamedTemporaryFile(delete=False, suffix='.xlsx') as tmp:
+            with tempfile.NamedTemporaryFile(delete=False, suffix='ext') as tmp:
                 content = await file.read()
                 tmp.write(content)
                 tmp_path = tmp.name
 
             try:
-                # Try reading with different sheet names
-                df = self._read_excel_file(tmp_path)
+                if ext == ".csv":
+                    df = pd.read_csv(tmp_path)
+                else:
+                    df = pd.read_excel(tmp_path)
+                
                 
                 # Process and extract problems
                 problems = self._extract_problems(df)
@@ -220,7 +223,7 @@ class FileProcessorService:
 
         
         # Split by common separators and clean up
-        tech_stack = str(tech_text).replace(' and ', ',').replace('&', ',').split(',')
+        tech_stack = str(tech_text).replace(' and ', ',').replace('&', ',').replace(';', ',').split(',')
         tech_stack = [tech.strip() for tech in tech_stack if tech.strip()]
         
         return tech_stack

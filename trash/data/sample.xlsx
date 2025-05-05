@@ -1,7 +1,0 @@
-| Title | Description | Category | Difficulty_Level | Tech_Stack | Min_Team_Size | Max_Team_Size | Estimated_Duration_Weeks |
-|-------|-------------|----------|-----------------|------------|---------------|---------------|------------------------|
-| E-commerce Platform Development | Create a full-stack e-commerce platform with user authentication, product management, and payment integration | Web Development | Medium | React,Node.js,MongoDB,Express | 3 | 5 | 8 |
-| AI Image Recognition System | Develop an AI system for image classification and object detection | AI/ML | Hard | Python,TensorFlow,OpenCV | 2 | 4 | 6 |
-| Mobile Food Delivery App | Build a cross-platform mobile app for food delivery services | Mobile Development | Medium | React Native,Firebase,Redux | 2 | 4 | 10 |
-| Blockchain Voting System | Implement a secure voting system using blockchain technology | Blockchain | Hard | Solidity,Ethereum,Web3.js,React | 4 | 6 | 12 |
-| IoT Home Automation | Create a smart home automation system with IoT devices | IoT | Medium | Python,Raspberry Pi,MQTT,Node.js | 2 | 4 | 8 |

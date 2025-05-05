@@ -1,0 +1,21 @@
+title,Problem Statement,Technical Requirements,source_file,created_at
+"Insight Chatbot for Natural Language KPI Insights","Develop an AI-powered analytics chatbot that provides natural language KPI insights for non-technical users.","Python, NLP (RAG-Indic), Vector DBs, LLMs, REST APIs, Dashboarding",Protean,2025-04-26
+"AI-Augmented VaccineLedger for Smarter Supply Chains","Enhance VaccineLedger with AI capabilities to predict vaccine demand and optimize logistics.","Python, ML (forecasting/classification), GenAI APIs, Node.js, Rasa/Dialogflow, Postgres, React",Statwig,2025-04-26
+"Scheme Training Discovery Microservices for Open Networks","Build microservices for efficient discovery of government training schemes in open networks.","TBD",Haqdarshak,2025-04-26
+"AI Assistant for Defence Pension Sanction Workflow","Build a LLM-based assistant to improve decision making in pension workflow and reduce errors.","Python, FastAPI, LLMs, Postgres, NER, OCR",Ministry of Defence,2025-04-26
+"Real-Time Agro Advisory Using Data Signals","Develop a real-time agro-advisory tool using satellite, weather and soil data for better crop decisions.","Python, ML, GIS, APIs",Digital Green,2025-04-26
+"Smart Feedback System for Farmer Helpline","Build a system that classifies farmer queries and generates feedback summaries using LLMs.","Python, LLMs, FastAPI, REST, SQLite",Digital Green,2025-04-26
+"Digitizing Gram Panchayat Development Plans (GPDP)","Develop a web app that lets panchayats digitize and monitor their local development plans.","React, Node.js, Postgres",eGov Foundation,2025-04-26
+"AI Chatbot for Rural Schemes Access","Create a multilingual chatbot that guides users in rural areas about welfare schemes.","Rasa, Indic NLP, React, Flask",Haqdarshak,2025-04-26
+"OCR Engine for Semi-Structured Documents","Build a custom OCR solution to extract data from regional-language semi-structured documents.","Tesseract, Indic OCR, FastAPI",Protean,2025-04-26
+"Community Insights Platform for Local Governments","Develop a dashboard that helps local governments visualize key insights on community programs.","React, D3.js, REST APIs, Postgres",eGovernments Foundation,2025-04-26
+"AI Tool for Predicting RTI Responses","Create a model that predicts potential RTI responses using NLP.","Python, Transformers, FastAPI, Huggingface",Digital Empowerment Foundation,2025-04-26
+"LLM-based Knowledge Assistant for Healthcare Workers","Build a chatbot that helps healthcare workers access SOPs and treatment guides via natural language.","LLMs, FastAPI, React, PDF parsing",National Health Mission,2025-04-26
+"Agri Knowledgebase Management System","Develop a structured knowledgebase to assist agri-department officials with policy references.","React, Django, Postgres, Search APIs",Ministry of Agriculture,2025-04-26
+"Skill Mapping Tool for Rural Youth","Build a tool that maps rural youth profiles to suitable skill development opportunities.","Flask, ML, SQLite, REST",NSDC,2025-04-26
+"LLM-Powered Grievance Redressal Tracker","Use NLP to classify and route citizen grievances efficiently to the right department.","Python, FastAPI, BERT, React",MeitY,2025-04-26
+"Water Quality Monitoring Dashboard","Develop a system to track, visualize, and alert about unsafe water quality in rural areas.","React, IoT, MQTT, Postgres",Jal Jeevan Mission,2025-04-26
+"PDS Digitization and Entitlement Checker","Create a digital tool to help citizens check PDS entitlements and raise requests.","Android, Flask, SQLite, REST APIs",Ministry of Consumer Affairs,2025-04-26
+"Green Energy Transition Dashboard","Design a dashboard to track renewable energy usage and compliance by local bodies.","React, Python, REST, GIS, Postgres",MNRE,2025-04-26
+"AI Chat Support for Government Forms","Build a support chatbot that helps citizens fill out complex government forms.","Python, LLM, OCR, React",MyGov,2025-04-26
+"Public Health Heatmap Generator","Create an app that visualizes disease trends and hotspots using reported case data.","React, D3.js, Postgres, REST APIs",Ministry of Health and Family Welfare,2025-04-26

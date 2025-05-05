@@ -1,51 +1,25 @@
-import {createContext, useContext, useState } from 'react'
+import { createContext, useContext, useState, useEffect } from "react";
 
-const AuthContext = createContext(null);
+const AuthContext = createContext();
 
-export const AuthProvider = ({children}) => {
-    const [user, setUser] = useState(null);
+export function AuthProvider({ children }) {
+  const [token, setToken] = useState(() => localStorage.getItem("token"));
 
-    const login = async (email, password) => {
-        // TODO: Implement actual login logic with your backend
-        try {
-            // Mock login for now
-            setUser({ email });
-            return true;
-        } catch (error) {
-            console.error('Login failed:', error);
-            return false;
-        }
-    };
+  useEffect(() => {
+    if (token) localStorage.setItem("token", token);
+    else localStorage.removeItem("token");
+  }, [token]);
 
-    const signup = async (email, password) => {
-        // TODO: Implement actual signup logic with your backend
-        try {
-          // Mock signup for now
-          setUser({ email });
-          return true;
-        } catch (error) {
-          console.error('Signup failed:', error);
-          return false;
-        }
-    };
-
-    const logout = () => {
-        setUser(null);
-    };
-
+  const login = (newToken) => setToken(newToken);
+  const logout = () => setToken(null);
 
   return (
-    <AuthContext.Provider value={{user, login, signup, logout}}>
-        {children}
+    <AuthContext.Provider value={{ token, login, logout }}>
+      {children}
     </AuthContext.Provider>
   );
-};
+}
 
-export const useAuth = () => {
-    const context = useContext(AuthContext);
-
-    if(!context) {
-        throw new Error('useAuth must be used within an AuthProvider');
-    }
-    return context;
-};
+export function useAuth() {
+  return useContext(AuthContext);
+}
