@@ -53,7 +53,16 @@ export default function HomePage() {
     <div className="min-h-screen bg-gray-100">
       {/* Navbar */}
       <div className="flex justify-between items-center px-8 py-4 bg-white shadow">
-        <h1 className="text-2xl font-bold text-blue-700">Problem Statement Finder</h1>
+        <div>
+          <h1 className="text-2xl font-semibold text-blue-700">Problem Statement Finder</h1>
+          <div className="flex flex-row gap-1 text-sm text-[#4d4d4d]">
+            <h3 className="font-medium pr-2">Made By</h3>
+            <a href="https://github.com/sidharthd7">Sidharth Dhawan</a>
+            <p>   |   </p>
+            <a href="https://github.com/HarshKumat">Harsh Kumat</a>
+          </div>
+        </div>
+        
         <button
           className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
           onClick={() => navigate("/team")}

@@ -46,7 +46,7 @@ app = FastAPI(
     An API for matching problem statements with teams based on their skills and requirements.
     
     Key features:
-    * Upload and process problem statement Excel files
+    * Upload and process problem statement Excel and CSV files
     * Manage teams and their technical requirements
     * Match problems with teams based on skills
     * User authentication and authorization
