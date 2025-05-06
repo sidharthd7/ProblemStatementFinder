@@ -30,14 +30,13 @@ logger = logging.getLogger(__name__)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup
-    logger.info("Starting up Problem Statement Finder API")
-    # Add any startup tasks here (e.g., database initialization)
-    yield
-    # Shutdown
-    logger.info("Shutting down Problem Statement Finder API")
-    # Add any cleanup tasks here
     
+    logger.info("Starting up Problem Statement Finder API")
+    
+    yield
+    
+    logger.info("Shutting down Problem Statement Finder API")
+        
     
 # Initialize FastAPI app
 app = FastAPI(
@@ -62,15 +61,15 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",  # React frontend
-        "http://localhost:5173"   # Vite frontend
+        "http://localhost:3000",  
+        "http://localhost:5173"   
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Include routers with prefixes and tags
+# Include routers 
 app.include_router(
     auth.router,
     prefix=f"{settings.API_V1_STR}/auth",
@@ -93,7 +92,7 @@ app.include_router(
 file_processor = FileProcessorService()
 problem_matcher = ProblemMatcherService()
 
-# Custom OpenAPI documentation
+
 def custom_openapi():
     if app.openapi_schema:
         return app.openapi_schema
@@ -139,7 +138,7 @@ def custom_openapi():
         routes=app.routes,
     )
 
-    # Customize specific endpoint documentation
+    # specific endpoint documentation
     for path in openapi_schema["paths"]:
         # File upload endpoint
         if path.endswith("/upload"):
@@ -267,6 +266,6 @@ if __name__ == "__main__":
         "main:app",
         host="0.0.0.0",
         port=8000,
-        reload=True,  # Enable auto-reload during development
+        reload=True,  
         log_level="info"
     )
