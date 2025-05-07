@@ -8,6 +8,6 @@ class Problem(Base):
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String, nullable=False)
     description = Column(String, nullable=False)
-    tech_stack = Column(JSON, nullable=False)  # Array of required skills
+    tech_stack = Column(JSON, nullable=False) 
     created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
-    source_file = Column(String, nullable=False)  # Name of the source Excel file
+    source_file = Column(String, nullable=False)  

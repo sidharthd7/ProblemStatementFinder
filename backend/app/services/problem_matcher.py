@@ -13,7 +13,7 @@ class ProblemMatcherService:
             ngram_range=(1, 2)
         )
         
-        # Weights for different matching criteria
+        # Weights for diff. matching criteria
         self.weights = {
             'tech_stack': 0.6,
             'description': 0.4
@@ -31,13 +31,13 @@ class ProblemMatcherService:
         if not problems:
             return []
 
-        # Calculate tech stack similarity
+        # tech stack similarity
         tech_scores = self._calculate_tech_similarity(problems, team.tech_skills)
         
-        # Calculate description similarity
+        # description similarity
         desc_scores = self._calculate_description_similarity(problems, team)
         
-        # Combine scores
+        # Combined
         final_scores = []
         for i, problem in enumerate(problems):
             score = (
@@ -51,7 +51,7 @@ class ProblemMatcherService:
                 'tech_match': round(float(tech_scores[i]) * 100, 2)
             })
 
-        # Sort by score and return top matches
+        # sort and return
         matches = sorted(final_scores, key=lambda x: x['score'], reverse=True)
         return matches[:limit]
 
@@ -69,7 +69,7 @@ class ProblemMatcherService:
         for problem in problems:
             problem_tech = [tech.lower() for tech in problem.tech_stack]
             
-            # Calculate Jaccard similarity
+            # Jaccard similarity
             intersection = len(set(team_skills_lower) & set(problem_tech))
             union = len(set(team_skills_lower) | set(problem_tech))
             
@@ -86,19 +86,18 @@ class ProblemMatcherService:
         """
         Calculate similarity between problem descriptions and team profile
         """
-        # Create problem descriptions corpus
+        # problem description collection
         descriptions = [p.description for p in problems]
-        
-        # Create team profile
+
         team_profile = f"{' '.join(team.tech_skills)} {team.experience_level}"
         
-        # Add team profile to corpus
+        # Adding team profile to collection
         all_texts = descriptions + [team_profile]
         
-        # Calculate TF-IDF
+        # TF-IDF
         tfidf_matrix = self.vectorizer.fit_transform(all_texts)
         
-        # Calculate similarity between each problem and team profile
+        # similarity between each problem and team profile
         similarities = cosine_similarity(
             tfidf_matrix[:-1],  # All problems
             tfidf_matrix[-1:]   # Team profile

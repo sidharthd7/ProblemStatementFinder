@@ -50,7 +50,7 @@ export async function createTeam(team) {
   return res.json();
 }
 
-// Upload Problem File
+// Uploading Problem File
 export async function uploadProblems(file, teamId) {
   const formData = new FormData();
   formData.append('file', file);

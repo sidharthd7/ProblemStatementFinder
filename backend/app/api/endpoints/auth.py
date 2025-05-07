@@ -28,11 +28,11 @@ async def signup(
         logger.debug("Starting signup process")
         logger.debug(f"Received user data: {user_in.dict(exclude={'password'})}")
         
-        # Check database connection
+        # database connection
         try:
             logger.debug("Testing database connection...")
             result = db.execute(text("SELECT 1"))
-            result.scalar()  # Actually fetch the result
+            result.scalar()  # fetching the result
             logger.debug("Database connection successful")
         except Exception as e:
             logger.error("Database connection test failed")
@@ -44,7 +44,7 @@ async def signup(
                 detail=f"Database connection error: {str(e)}"
             )
 
-        # Check if user exists
+        # Checking user existence
         try:
             logger.debug(f"Checking if user exists with email: {user_in.email}")
             existing_user = user_service.get_by_email(db, email=user_in.email)

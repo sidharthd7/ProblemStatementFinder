@@ -28,5 +28,4 @@ class UserService(CRUDBase[User, UserCreate, UserCreate]):
             return None
         return user
 
-# Create a singleton instance
 user_service = UserService(User)

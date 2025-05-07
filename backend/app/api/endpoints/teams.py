@@ -21,14 +21,14 @@ async def create_team(
     Create a new team
     """
     try:
-        # Validate team data
+        # Validating team data
         if team_in.team_size <= 0:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
                 detail="Team size must be greater than 0"
             )
 
-        # Create team
+        # Creating team
         return team_service.create_with_owner(
             db=db,
             obj_in=team_in,
@@ -87,7 +87,7 @@ async def update_team(
                 detail="Team not found"
             )
         
-        # Check ownership
+        # Check owner
         if team.owner_id != current_user.id:
             raise HTTPException(
                 status_code=status.HTTP_403_FORBIDDEN,

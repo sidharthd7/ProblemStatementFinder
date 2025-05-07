@@ -31,11 +31,11 @@ async def upload_and_process(
     Optionally match with a specific team's skills.
     """
     try:
-        # Initialize services
+        # services
         file_processor = FileProcessorService()
         problem_matcher = ProblemMatcherService()
 
-        # Process file
+        # processing file
         try:
             problems = await file_processor.process_file(file, db)
             logger.info(f"Successfully processed {len(problems)} problems")
@@ -80,7 +80,7 @@ async def upload_and_process(
                     )
                 
                 matches = problem_matcher.find_matches(problems, team)
-                return matches[:10]  # Return top 10 matches
+                return matches[:10]  # top 10 matches
                 
             except Exception as e:
                 logger.error(f"Error matching problems with team: {str(e)}")

@@ -16,13 +16,13 @@ logger = logging.getLogger(__name__)
 
 class FileProcessorService:
     def __init__(self):
-        # Common problem statement column names to look for
+        # Common problem statement column names
         self.possible_column_names = [
             'problem statement', 'problem description', 'description',
             'statement', 'problem', 'challenge', 'project'
         ]
         
-        # Keywords that might indicate problem statement columns
+        # Keywords indicating ps columns
         self.content_indicators = [
             'implement', 'create', 'develop', 'build', 'design',
             'requirement', 'feature', 'functionality'
@@ -104,10 +104,8 @@ class FileProcessorService:
         Read Excel file with various attempts to handle different formats
         """
         try:
-            # Try reading with default sheet
             df = pd.read_excel(file_path)
             
-            # If empty, try other sheet names
             if df.empty:
                 xl = pd.ExcelFile(file_path)
                 for sheet in xl.sheet_names:
@@ -141,11 +139,11 @@ class FileProcessorService:
             try:
                 problem_text = str(row[problem_col]).strip()
                 
-                # Skip empty or invalid problems
+                # Skipping invalid problems
                 if problem_text.lower() in ['nan', '', 'none']:
                     continue
 
-                # Extract tech stack if available
+                # Extract tech stack if exists
                 tech_stack = []
                 if tech_stack_col:
                     tech_stack = self._extract_tech_stack(row[tech_stack_col])
@@ -171,12 +169,12 @@ class FileProcessorService:
         """
         Identify the column containing problem statements
         """
-        # Try exact matches first
+        # exact matches
         for col in df.columns:
             if str(col).lower() in self.possible_column_names:
                 return col
 
-        # Try content-based identification
+        # content-based identification
         max_score = 0
         best_col = None
         
@@ -222,7 +220,7 @@ class FileProcessorService:
             return []
 
         
-        # Split by common separators and clean up
+        # Splitting by common separators
         tech_stack = str(tech_text).replace(' and ', ',').replace('&', ',').replace(';', ',').split(',')
         tech_stack = [tech.strip() for tech in tech_stack if tech.strip()]
         
@@ -236,10 +234,8 @@ class FileProcessorService:
         # Split into sentences
         sentences = description.split('.')
         
-        # Use first sentence if it's not too long
         title = sentences[0].strip()
         if len(title) <= max_length:
             return title
         
-        # Otherwise, truncate with ellipsis
         return title[:max_length-3] + '...'

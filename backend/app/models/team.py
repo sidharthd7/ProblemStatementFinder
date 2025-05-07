@@ -8,7 +8,7 @@ class Team(Base):
     
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, nullable=False)
-    tech_skills = Column(JSON, nullable=False)  # Array of skills
+    tech_skills = Column(JSON, nullable=False)  
     team_size = Column(Integer, nullable=False)
     experience_level = Column(String, nullable=False)
     deadline = Column(DateTime, nullable=True)

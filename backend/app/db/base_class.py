@@ -6,7 +6,7 @@ class CustomBase:
     def __tablename__(cls):
         return cls.__name__.lower()
 
-    # Add common columns here
+
     id: int
 
 Base = declarative_base(cls=CustomBase)

@@ -14,16 +14,16 @@ class Settings(BaseSettings):
     POSTGRES_PASSWORD: str
     POSTGRES_DB: str
     
-    # JWT token config
+    # JWT token
     SECRET_KEY: str
-    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 8  # 8 days
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 8  
     
     class Config:
         env_file = ".env"
         
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        # Log the loaded configuration (excluding sensitive data)
+        
         logger.info(f"Loaded configuration:")
         logger.info(f"POSTGRES_SERVER: {self.POSTGRES_SERVER}")
         logger.info(f"POSTGRES_USER: {self.POSTGRES_USER}")

@@ -6,25 +6,25 @@ from typing import List, Optional
 from datetime import datetime
 from contextlib import asynccontextmanager
 
-# Import routers
+#  routers
 from app.api.endpoints import auth, teams, problems
 
-# Import config and dependencies
+# config and dependencies
 from app.core.config import settings
 from app.db.session import get_db
 from app.core.exceptions import DatabaseError, FileProcessingError
 
-# Import services
+# services
 from app.services.file_processor import FileProcessorService
 from app.services.problem_matcher import ProblemMatcherService
 
-# Import schemas
+# schemas
 from app.schemas.problem import Problem, ProblemMatch
 from app.schemas.team import Team, TeamCreate
 
 import logging
 
-# Configure logging
+# logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -38,7 +38,7 @@ async def lifespan(app: FastAPI):
     logger.info("Shutting down Problem Statement Finder API")
         
     
-# Initialize FastAPI app
+# FastAPI app
 app = FastAPI(
     title="Problem Statement Finder",
     description="""
@@ -57,7 +57,7 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# Configure CORS
+# CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -69,7 +69,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Include routers 
+# routers 
 app.include_router(
     auth.router,
     prefix=f"{settings.API_V1_STR}/auth",
