@@ -7,7 +7,7 @@ from datetime import datetime
 from contextlib import asynccontextmanager
 
 #  routers
-from app.api.endpoints import auth, teams, problems
+from app.api.endpoints import auth, teams, problems, matching
 
 # config and dependencies
 from app.core.config import settings
@@ -16,7 +16,7 @@ from app.core.exceptions import DatabaseError, FileProcessingError
 
 # services
 from app.services.file_processor import FileProcessorService
-from app.services.problem_matcher import ProblemMatcherService
+from app.services.problem_matcher import match_problems_to_team
 
 # schemas
 from app.schemas.problem import Problem, ProblemMatch
@@ -88,9 +88,14 @@ app.include_router(
     tags=["Problems"]
 )
 
+app.include_router(
+    matching.router,
+    prefix=f"{settings.API_V1_STR}/matching",
+    tags=["Matching"]
+)
+
 # Initialize services
 file_processor = FileProcessorService()
-problem_matcher = ProblemMatcherService()
 
 
 def custom_openapi():

@@ -11,7 +11,8 @@ from ...db.session import get_db
 from ...schemas.problem import ProblemMatch, Problem
 from ...models.team import Team
 from ...services.file_processor import FileProcessorService
-from ...services.problem_matcher import ProblemMatcherService
+from ...services.problem_matcher import match_problems_to_team
+from ...schemas.matching import MatchResponse
 from ..deps import get_current_user
 import logging
 import traceback
@@ -19,7 +20,7 @@ import traceback
 logger = logging.getLogger(__name__)
 router = APIRouter()
 
-@router.post("/upload", response_model=List[ProblemMatch])
+@router.post("/upload", response_model=MatchResponse)
 async def upload_and_process(
     file: UploadFile = File(...),
     team_id: int = None,
@@ -33,7 +34,7 @@ async def upload_and_process(
     try:
         # services
         file_processor = FileProcessorService()
-        problem_matcher = ProblemMatcherService()
+
 
         # processing file
         try:
@@ -79,8 +80,24 @@ async def upload_and_process(
                         detail="Not authorized to access this team"
                     )
                 
-                matches = problem_matcher.find_matches(problems, team)
-                return matches[:10]  # top 10 matches
+                team_profile = {
+                    "size": team.team_size,
+                    "experience": team.experience_level,
+                    "skills": team.tech_skills,
+                    "deadline": team.deadline or 30
+                }
+                problems_list = [
+                    {
+                        "id": str(p.id),
+                        "description": p.description,
+                        "required_skills": p.tech_stack,
+                        "complexity": getattr(p, "complexity", "medium"),
+                        "deadline": getattr(p, "deadline", 30)
+                    }
+                    for p in problems
+                ]
+                matches = match_problems_to_team(team_profile, problems_list)
+                return {"status": "success", "matches": matches}
                 
             except Exception as e:
                 logger.error(f"Error matching problems with team: {str(e)}")

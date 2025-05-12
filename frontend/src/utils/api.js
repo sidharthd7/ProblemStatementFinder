@@ -51,7 +51,7 @@ export async function createTeam(team) {
 }
 
 // Uploading Problem File
-export async function uploadProblems(file, teamId) {
+export async function uploadProblems(file, teamId, signal) {
   const formData = new FormData();
   formData.append('file', file);
   const url = teamId
@@ -61,7 +61,11 @@ export async function uploadProblems(file, teamId) {
     method: 'POST',
     headers: { ...getAuthHeaders() },
     body: formData,
+    signal,
   });
-  if (!res.ok) throw await res.json();
+  if (!res.ok) {
+    const error = await res.json();
+    throw new Error(error.detail || 'Upload failed');
+  }
   return res.json();
 }
