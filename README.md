@@ -28,33 +28,6 @@ A powerful tool designed to help hackathon participants and project mentors matc
 - **PostgreSQL**: Relational database
 - **Alembic**: Database migrations
 
-## 📁 Project Structure
-
-project/
-├── backend/
-│   ├── alembic/
-│   ├── app/
-│   │   ├── api/
-│   │   ├── core/
-│   │   ├── db/
-│   │   ├── models/
-│   │   ├── schemas/
-│   │   ├── services/
-│   ├── main.py
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── context/
-│   │   ├── pages/
-│   │   ├── utils/
-│   │   ├── App.jsx
-│   │   ├── index.css
-│   │   └── main.jsx
-
 ## 🚀 Features
 
 - **Team Management**
