@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, status, Request
 from fastapi.security import OAuth2PasswordRequestForm
 from sqlalchemy.orm import Session
 from ...core.exceptions import DatabaseError
@@ -6,6 +6,7 @@ from ...core.security import create_access_token, verify_password
 from ...db.session import get_db
 from ...schemas.user import UserCreate, User
 from ...services.user_service import user_service
+from ...core.metrics import track_request_metrics, track_db_operation
 import logging
 import traceback
 from sqlalchemy import text
@@ -17,7 +18,9 @@ logger.setLevel(logging.DEBUG)
 
 
 @router.post("/signup", response_model=User)
+@track_request_metrics
 async def signup(
+    request: Request,
     user_in: UserCreate,
     db: Session = Depends(get_db)
 ):
@@ -31,8 +34,7 @@ async def signup(
         # database connection
         try:
             logger.debug("Testing database connection...")
-            result = db.execute(text("SELECT 1"))
-            result.scalar()  # fetching the result
+            await test_db_connection(db)
             logger.debug("Database connection successful")
         except Exception as e:
             logger.error("Database connection test failed")
@@ -47,7 +49,7 @@ async def signup(
         # Checking user existence
         try:
             logger.debug(f"Checking if user exists with email: {user_in.email}")
-            existing_user = user_service.get_by_email(db, email=user_in.email)
+            existing_user = await check_user_existence(db, user_in.email)
             if existing_user:
                 logger.warning(f"User with email {user_in.email} already exists")
                 raise HTTPException(
@@ -70,7 +72,7 @@ async def signup(
         # Create new user
         try:
             logger.debug("Attempting to create new user")
-            new_user = user_service.create(db, obj_in=user_in)
+            new_user = await create_user_with_metrics(db, user_in)
             logger.info(f"Successfully created user with email: {user_in.email}")
             return new_user
         except Exception as e:
@@ -96,7 +98,9 @@ async def signup(
         )
 
 @router.post("/login")
+@track_request_metrics
 async def login(
+    request: Request,
     db: Session = Depends(get_db),
     form_data: OAuth2PasswordRequestForm = Depends()
 ):
@@ -105,11 +109,7 @@ async def login(
     """
     try:
         # Authenticate user
-        user = user_service.authenticate(
-            db,
-            email=form_data.username,
-            password=form_data.password
-        )
+        user = await authenticate_user_with_metrics(db, form_data.username, form_data.password)
         if not user:
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
@@ -133,3 +133,21 @@ async def login(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="Login error occurred"
         )
+
+# Helper functions with metrics
+@track_db_operation("select", "system")
+async def test_db_connection(db: Session):
+    result = db.execute(text("SELECT 1"))
+    return result.scalar()
+
+@track_db_operation("select", "users")
+async def check_user_existence(db: Session, email: str):
+    return user_service.get_by_email(db, email=email)
+
+@track_db_operation("insert", "users")
+async def create_user_with_metrics(db: Session, user_in: UserCreate):
+    return user_service.create(db, obj_in=user_in)
+
+@track_db_operation("select", "users")
+async def authenticate_user_with_metrics(db: Session, email: str, password: str):
+    return user_service.authenticate(db, email=email, password=password)

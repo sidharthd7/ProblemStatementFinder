@@ -14,6 +14,7 @@ from ...services.file_processor import FileProcessorService
 from ...services.problem_matcher import match_problems_to_team
 from ...schemas.matching import MatchResponse
 from ..deps import get_current_user
+from ...core.metrics import track_request_metrics, track_db_operation
 import logging
 import traceback
 
@@ -21,6 +22,7 @@ logger = logging.getLogger(__name__)
 router = APIRouter()
 
 @router.post("/upload", response_model=MatchResponse)
+@track_request_metrics
 async def upload_and_process(
     file: UploadFile = File(...),
     team_id: int = None,
@@ -34,7 +36,6 @@ async def upload_and_process(
     try:
         # services
         file_processor = FileProcessorService()
-
 
         # processing file
         try:
@@ -68,17 +69,7 @@ async def upload_and_process(
         # If team_id provided, get team and match problems
         if team_id:
             try:
-                team = db.query(Team).filter(Team.id == team_id).first()
-                if not team:
-                    raise HTTPException(
-                        status_code=status.HTTP_404_NOT_FOUND,
-                        detail="Team not found"
-                    )
-                if team.owner_id != current_user.id:
-                    raise HTTPException(
-                        status_code=status.HTTP_403_FORBIDDEN,
-                        detail="Not authorized to access this team"
-                    )
+                team = await get_team_with_metrics(team_id, current_user.id, db)
                 
                 team_profile = {
                     "size": team.team_size,
@@ -120,6 +111,7 @@ async def upload_and_process(
         )
 
 @router.get("/problems/{problem_id}", response_model=Problem)
+@track_request_metrics
 async def get_problem(
     problem_id: int,
     db: Session = Depends(get_db),
@@ -129,7 +121,7 @@ async def get_problem(
     Retrieve a specific problem by ID
     """
     try:
-        problem = db.query(Problem).filter(Problem.id == problem_id).first()
+        problem = await get_problem_with_metrics(problem_id, db)
         if not problem:
             raise HTTPException(
                 status_code=status.HTTP_404_NOT_FOUND,
@@ -143,3 +135,22 @@ async def get_problem(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="Database error occurred"
         )
+
+@track_db_operation("select", "teams")
+async def get_team_with_metrics(team_id: int, user_id: int, db: Session):
+    team = db.query(Team).filter(Team.id == team_id).first()
+    if not team:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Team not found"
+        )
+    if team.owner_id != user_id:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Not authorized to access this team"
+        )
+    return team
+
+@track_db_operation("select", "problems")
+async def get_problem_with_metrics(problem_id: int, db: Session):
+    return db.query(Problem).filter(Problem.id == problem_id).first()

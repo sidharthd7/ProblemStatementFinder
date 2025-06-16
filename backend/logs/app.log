@@ -1,0 +1,1546 @@
+2025-06-14 19:39:01,247 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 19:39:01,247 - app.core.logging - INFO - Environment: development
+2025-06-14 19:39:01,248 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 19:39:10,395 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 19:39:10,401 - app.core.logging - INFO - Environment: development
+2025-06-14 19:39:10,403 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 19:39:35,443 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 19:39:40,662 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 19:39:40,663 - app.core.logging - INFO - Environment: development
+2025-06-14 19:39:40,667 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 19:39:54,355 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 19:39:59,339 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 19:39:59,341 - app.core.logging - INFO - Environment: development
+2025-06-14 19:39:59,343 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 19:40:58,037 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 19:41:07,414 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 19:41:07,415 - app.core.logging - INFO - Environment: development
+2025-06-14 19:41:07,417 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 19:41:08,621 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 19:41:16,649 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 19:41:16,650 - app.core.logging - INFO - Environment: development
+2025-06-14 19:41:16,652 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 19:41:34,560 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 19:41:34,563 - app.core.logging - INFO - Environment: development
+2025-06-14 19:41:34,576 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 19:41:52,411 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 19:41:52,416 - app.core.logging - INFO - Environment: development
+2025-06-14 19:41:52,419 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 19:42:00,682 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 19:42:00,683 - app.core.logging - INFO - Environment: development
+2025-06-14 19:42:00,685 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 19:46:00,896 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 19:46:06,020 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 19:46:06,021 - app.core.logging - INFO - Environment: development
+2025-06-14 19:46:06,021 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 19:47:44,498 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 19:47:50,651 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 19:47:50,653 - app.core.logging - INFO - Environment: development
+2025-06-14 19:47:50,654 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 19:47:58,728 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 19:48:04,325 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 19:48:04,326 - app.core.logging - INFO - Environment: development
+2025-06-14 19:48:04,327 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 19:48:13,701 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 19:48:19,197 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 19:48:19,199 - app.core.logging - INFO - Environment: development
+2025-06-14 19:48:19,200 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:33:55,394 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:34:32,976 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:34:32,977 - app.core.logging - INFO - Environment: development
+2025-06-14 22:34:32,978 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:34:39,141 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:34:39,142 - app.core.logging - INFO - Environment: development
+2025-06-14 22:34:39,144 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:34:44,187 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:34:44,188 - app.core.logging - INFO - Environment: development
+2025-06-14 22:34:44,189 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:34:47,694 - app.core.logging - INFO - Redis cache initialized
+2025-06-14 22:34:48,186 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:34:48,188 - app.core.logging - INFO - Environment: development
+2025-06-14 22:34:48,189 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:34:48,756 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/teams/ "HTTP/1.1 422 Unprocessable Entity"
+2025-06-14 22:34:49,173 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:34:49,183 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:34:49,184 - app.core.logging - INFO - Environment: development
+2025-06-14 22:34:49,185 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:34:50,354 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:34:50,362 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:34:50,364 - app.core.logging - INFO - Environment: development
+2025-06-14 22:34:50,365 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:34:51,773 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:34:51,783 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:34:51,785 - app.core.logging - INFO - Environment: development
+2025-06-14 22:34:51,785 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:34:52,945 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:34:52,952 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:34:52,954 - app.core.logging - INFO - Environment: development
+2025-06-14 22:34:52,954 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:34:54,040 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:34:54,047 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:34:54,048 - app.core.logging - INFO - Environment: development
+2025-06-14 22:34:54,048 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:34:55,250 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:34:55,257 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:34:55,258 - app.core.logging - INFO - Environment: development
+2025-06-14 22:34:55,258 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:34:55,266 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/teams/ "HTTP/1.1 401 Unauthorized"
+2025-06-14 22:34:55,271 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:44:20,247 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:44:29,355 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:44:29,356 - app.core.logging - INFO - Environment: development
+2025-06-14 22:44:29,357 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:44:39,380 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:44:39,387 - app.core.logging - INFO - Environment: development
+2025-06-14 22:44:39,391 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:44:40,154 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:44:49,138 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:44:49,142 - app.core.logging - INFO - Environment: development
+2025-06-14 22:44:49,144 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:44:56,990 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:44:56,991 - app.core.logging - INFO - Environment: development
+2025-06-14 22:44:56,993 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:45:04,787 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:45:04,788 - app.core.logging - INFO - Environment: development
+2025-06-14 22:45:04,789 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:45:11,418 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:45:11,419 - app.core.logging - INFO - Environment: development
+2025-06-14 22:45:11,422 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:45:17,862 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:45:17,864 - app.core.logging - INFO - Environment: development
+2025-06-14 22:45:17,865 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:45:25,924 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:45:25,925 - app.core.logging - INFO - Environment: development
+2025-06-14 22:45:25,927 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:45:30,875 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:45:30,876 - app.core.logging - INFO - Environment: development
+2025-06-14 22:45:30,877 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:47:29,902 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:47:34,941 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:47:34,942 - app.core.logging - INFO - Environment: development
+2025-06-14 22:47:34,943 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:47:41,492 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:47:46,732 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:47:46,734 - app.core.logging - INFO - Environment: development
+2025-06-14 22:47:46,736 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:48:11,475 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:48:16,965 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:48:16,967 - app.core.logging - INFO - Environment: development
+2025-06-14 22:48:16,968 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:48:21,933 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:48:21,934 - app.core.logging - INFO - Environment: development
+2025-06-14 22:48:21,935 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:48:31,629 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:48:36,566 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:48:36,567 - app.core.logging - INFO - Environment: development
+2025-06-14 22:48:36,568 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:48:41,952 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:48:41,954 - app.core.logging - INFO - Environment: development
+2025-06-14 22:48:41,955 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:48:46,295 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:48:46,296 - app.core.logging - INFO - Environment: development
+2025-06-14 22:48:46,297 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:48:52,507 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:48:57,736 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:48:57,736 - app.core.logging - INFO - Environment: development
+2025-06-14 22:48:57,738 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:50:35,966 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:50:40,107 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:50:40,108 - app.core.logging - INFO - Environment: development
+2025-06-14 22:50:40,109 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:50:55,249 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:50:59,862 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:50:59,863 - app.core.logging - INFO - Environment: development
+2025-06-14 22:50:59,864 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:52:04,745 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:52:04,747 - app.core.logging - INFO - Environment: development
+2025-06-14 22:52:04,749 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:52:04,765 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:52:04,778 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:52:04,779 - app.core.logging - INFO - Environment: development
+2025-06-14 22:52:04,781 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:52:04,785 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:52:04,797 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:52:04,798 - app.core.logging - INFO - Environment: development
+2025-06-14 22:52:04,799 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:52:04,806 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:52:04,835 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:52:04,838 - app.core.logging - INFO - Environment: development
+2025-06-14 22:52:04,839 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:52:04,850 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:52:04,882 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:52:04,884 - app.core.logging - INFO - Environment: development
+2025-06-14 22:52:04,885 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:52:04,898 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:52:04,916 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:52:04,917 - app.core.logging - INFO - Environment: development
+2025-06-14 22:52:04,921 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:52:04,927 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 22:52:04,949 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 22:52:04,953 - app.core.logging - INFO - Environment: development
+2025-06-14 22:52:04,959 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 22:52:04,986 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/teams/ "HTTP/1.1 401 Unauthorized"
+2025-06-14 22:52:04,997 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:08:44,981 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:08:44,982 - app.core.logging - INFO - Environment: development
+2025-06-14 23:08:44,983 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:08:44,997 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:08:45,011 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:08:45,012 - app.core.logging - INFO - Environment: development
+2025-06-14 23:08:45,013 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:08:45,015 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:08:45,029 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:08:45,030 - app.core.logging - INFO - Environment: development
+2025-06-14 23:08:45,031 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:08:45,036 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:08:45,042 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:08:45,044 - app.core.logging - INFO - Environment: development
+2025-06-14 23:08:45,044 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:08:45,047 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:08:45,060 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:08:45,061 - app.core.logging - INFO - Environment: development
+2025-06-14 23:08:45,062 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:08:45,065 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:08:45,072 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:08:45,074 - app.core.logging - INFO - Environment: development
+2025-06-14 23:08:45,074 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:08:45,077 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:08:45,083 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:08:45,091 - app.core.logging - INFO - Environment: development
+2025-06-14 23:08:45,094 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:08:45,106 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/teams/ "HTTP/1.1 401 Unauthorized"
+2025-06-14 23:08:45,111 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:10:07,900 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:10:12,188 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:10:12,189 - app.core.logging - INFO - Environment: development
+2025-06-14 23:10:12,190 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:10:29,947 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:10:29,947 - app.core.logging - INFO - Environment: development
+2025-06-14 23:10:29,948 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:10:30,262 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/teams/ "HTTP/1.1 422 Unprocessable Entity"
+2025-06-14 23:10:30,875 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:10:30,882 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:10:30,883 - app.core.logging - INFO - Environment: development
+2025-06-14 23:10:30,883 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:10:31,134 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:10:31,140 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:10:31,141 - app.core.logging - INFO - Environment: development
+2025-06-14 23:10:31,142 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:10:31,382 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:10:31,388 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:10:31,388 - app.core.logging - INFO - Environment: development
+2025-06-14 23:10:31,389 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:10:31,636 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:10:31,641 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:10:31,642 - app.core.logging - INFO - Environment: development
+2025-06-14 23:10:31,643 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:10:31,885 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:10:31,891 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:10:31,892 - app.core.logging - INFO - Environment: development
+2025-06-14 23:10:31,892 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:10:32,151 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/teams/ "HTTP/1.1 422 Unprocessable Entity"
+2025-06-14 23:10:32,153 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:10:32,160 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:10:32,160 - app.core.logging - INFO - Environment: development
+2025-06-14 23:10:32,161 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:10:32,165 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/teams/ "HTTP/1.1 401 Unauthorized"
+2025-06-14 23:10:32,167 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:16:32,615 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:16:39,111 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:16:39,112 - app.core.logging - INFO - Environment: development
+2025-06-14 23:16:39,112 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:16:42,270 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:16:46,382 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:16:46,383 - app.core.logging - INFO - Environment: development
+2025-06-14 23:16:46,384 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:18:00,746 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:18:04,915 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:18:04,916 - app.core.logging - INFO - Environment: development
+2025-06-14 23:18:04,917 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:18:08,963 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:18:08,964 - app.core.logging - INFO - Environment: development
+2025-06-14 23:18:08,964 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:18:25,534 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:18:34,105 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:18:34,107 - app.core.logging - INFO - Environment: development
+2025-06-14 23:18:34,119 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:18:44,596 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:18:44,605 - app.core.logging - INFO - Environment: development
+2025-06-14 23:18:44,607 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:18:49,261 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:18:49,263 - app.core.logging - INFO - Environment: development
+2025-06-14 23:18:49,263 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:18:53,134 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:18:53,134 - app.core.logging - INFO - Environment: development
+2025-06-14 23:18:53,135 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:18:54,560 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:19:02,498 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:19:02,499 - app.core.logging - INFO - Environment: development
+2025-06-14 23:19:02,500 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:19:05,447 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:19:11,368 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:19:11,369 - app.core.logging - INFO - Environment: development
+2025-06-14 23:19:11,370 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:19:15,440 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:19:15,441 - app.core.logging - INFO - Environment: development
+2025-06-14 23:19:15,443 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:19:20,551 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:19:24,655 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:19:24,656 - app.core.logging - INFO - Environment: development
+2025-06-14 23:19:24,657 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:19:32,446 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:19:32,447 - app.core.logging - INFO - Environment: development
+2025-06-14 23:19:32,447 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:19:32,754 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/teams/ "HTTP/1.1 200 OK"
+2025-06-14 23:19:33,257 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:19:33,263 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:19:33,264 - app.core.logging - INFO - Environment: development
+2025-06-14 23:19:33,265 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:19:33,509 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:19:33,514 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:19:33,515 - app.core.logging - INFO - Environment: development
+2025-06-14 23:19:33,516 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:19:33,759 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:19:33,765 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:19:33,766 - app.core.logging - INFO - Environment: development
+2025-06-14 23:19:33,766 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:19:34,011 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:19:34,017 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:19:34,017 - app.core.logging - INFO - Environment: development
+2025-06-14 23:19:34,018 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:19:34,262 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:19:34,269 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:19:34,270 - app.core.logging - INFO - Environment: development
+2025-06-14 23:19:34,270 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:19:34,518 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/teams/ "HTTP/1.1 422 Unprocessable Entity"
+2025-06-14 23:19:34,520 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:19:34,525 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:19:34,527 - app.core.logging - INFO - Environment: development
+2025-06-14 23:19:34,527 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:19:34,532 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/teams/ "HTTP/1.1 401 Unauthorized"
+2025-06-14 23:19:34,534 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:21:56,946 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:22:00,721 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:22:00,722 - app.core.logging - INFO - Environment: development
+2025-06-14 23:22:00,723 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:22:09,654 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:22:13,724 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:22:13,725 - app.core.logging - INFO - Environment: development
+2025-06-14 23:22:13,726 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:22:48,523 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:23:01,575 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:23:01,576 - app.core.logging - INFO - Environment: development
+2025-06-14 23:23:01,576 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:23:03,966 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:23:11,871 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:23:11,872 - app.core.logging - INFO - Environment: development
+2025-06-14 23:23:11,873 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:23:30,964 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:23:30,964 - app.core.logging - INFO - Environment: development
+2025-06-14 23:23:30,965 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:23:31,258 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/teams/ "HTTP/1.1 201 Created"
+2025-06-14 23:23:31,260 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:23:31,266 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:23:31,267 - app.core.logging - INFO - Environment: development
+2025-06-14 23:23:31,267 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:23:31,516 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:23:31,522 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:23:31,524 - app.core.logging - INFO - Environment: development
+2025-06-14 23:23:31,524 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:23:31,777 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:23:31,782 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:23:31,784 - app.core.logging - INFO - Environment: development
+2025-06-14 23:23:31,784 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:23:32,026 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:23:32,032 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:23:32,034 - app.core.logging - INFO - Environment: development
+2025-06-14 23:23:32,034 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:23:32,283 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:23:32,288 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:23:32,289 - app.core.logging - INFO - Environment: development
+2025-06-14 23:23:32,289 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:23:32,536 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/teams/ "HTTP/1.1 422 Unprocessable Entity"
+2025-06-14 23:23:32,538 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:23:32,543 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:23:32,544 - app.core.logging - INFO - Environment: development
+2025-06-14 23:23:32,544 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:23:32,550 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/teams/ "HTTP/1.1 401 Unauthorized"
+2025-06-14 23:23:32,553 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:24:50,296 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:24:53,839 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:24:53,839 - app.core.logging - INFO - Environment: development
+2025-06-14 23:24:53,840 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:24:57,786 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:24:57,787 - app.core.logging - INFO - Environment: development
+2025-06-14 23:24:57,788 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:25:01,400 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:25:01,401 - app.core.logging - INFO - Environment: development
+2025-06-14 23:25:01,402 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:25:14,896 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:25:14,897 - app.core.logging - INFO - Environment: development
+2025-06-14 23:25:14,899 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:25:15,190 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/teams/ "HTTP/1.1 201 Created"
+2025-06-14 23:25:15,192 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:25:15,199 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:25:15,200 - app.core.logging - INFO - Environment: development
+2025-06-14 23:25:15,200 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:25:15,454 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/teams/ "HTTP/1.1 200 OK"
+2025-06-14 23:25:15,456 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:25:15,462 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:25:15,462 - app.core.logging - INFO - Environment: development
+2025-06-14 23:25:15,462 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:25:15,706 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/teams/1 "HTTP/1.1 405 Method Not Allowed"
+2025-06-14 23:25:16,078 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:25:16,084 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:25:16,085 - app.core.logging - INFO - Environment: development
+2025-06-14 23:25:16,085 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:25:16,346 - httpx - INFO - HTTP Request: PUT http://testserver/api/v1/teams/1 "HTTP/1.1 200 OK"
+2025-06-14 23:25:16,348 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:25:16,354 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:25:16,355 - app.core.logging - INFO - Environment: development
+2025-06-14 23:25:16,356 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:25:16,605 - httpx - INFO - HTTP Request: DELETE http://testserver/api/v1/teams/1 "HTTP/1.1 405 Method Not Allowed"
+2025-06-14 23:25:16,612 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:25:16,619 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:25:16,620 - app.core.logging - INFO - Environment: development
+2025-06-14 23:25:16,621 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:25:16,872 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/teams/ "HTTP/1.1 422 Unprocessable Entity"
+2025-06-14 23:25:16,874 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:25:16,881 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:25:16,883 - app.core.logging - INFO - Environment: development
+2025-06-14 23:25:16,883 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:25:16,889 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/teams/ "HTTP/1.1 401 Unauthorized"
+2025-06-14 23:25:16,891 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:27:21,732 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:27:27,459 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:27:27,459 - app.core.logging - INFO - Environment: development
+2025-06-14 23:27:27,460 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:27:31,298 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:27:31,299 - app.core.logging - INFO - Environment: development
+2025-06-14 23:27:31,299 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:27:39,713 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:27:39,715 - app.core.logging - INFO - Environment: development
+2025-06-14 23:27:39,715 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:27:40,018 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/teams/ "HTTP/1.1 201 Created"
+2025-06-14 23:27:40,021 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:27:40,028 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:27:40,028 - app.core.logging - INFO - Environment: development
+2025-06-14 23:27:40,029 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:27:40,279 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/teams/ "HTTP/1.1 200 OK"
+2025-06-14 23:27:40,281 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:27:40,287 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:27:40,288 - app.core.logging - INFO - Environment: development
+2025-06-14 23:27:40,288 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:27:40,539 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/teams/1 "HTTP/1.1 200 OK"
+2025-06-14 23:27:40,541 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:27:40,547 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:27:40,548 - app.core.logging - INFO - Environment: development
+2025-06-14 23:27:40,549 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:27:40,803 - httpx - INFO - HTTP Request: PUT http://testserver/api/v1/teams/1 "HTTP/1.1 200 OK"
+2025-06-14 23:27:40,806 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:27:40,814 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:27:40,815 - app.core.logging - INFO - Environment: development
+2025-06-14 23:27:40,816 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:27:41,064 - httpx - INFO - HTTP Request: DELETE http://testserver/api/v1/teams/1 "HTTP/1.1 204 No Content"
+2025-06-14 23:27:41,069 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/teams/1 "HTTP/1.1 404 Not Found"
+2025-06-14 23:27:41,071 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:27:41,077 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:27:41,077 - app.core.logging - INFO - Environment: development
+2025-06-14 23:27:41,078 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:27:41,329 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/teams/ "HTTP/1.1 422 Unprocessable Entity"
+2025-06-14 23:27:41,331 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-14 23:27:41,337 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-14 23:27:41,338 - app.core.logging - INFO - Environment: development
+2025-06-14 23:27:41,339 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-14 23:27:41,344 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/teams/ "HTTP/1.1 401 Unauthorized"
+2025-06-14 23:27:41,347 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-15 22:39:21,893 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-15 22:39:21,895 - app.core.logging - INFO - Environment: development
+2025-06-15 22:39:21,896 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 20:33:49,372 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 20:33:49,373 - app.core.logging - INFO - Environment: development
+2025-06-16 20:33:49,374 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 20:37:35,440 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-16 20:37:40,350 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 20:37:40,351 - app.core.logging - INFO - Environment: development
+2025-06-16 20:37:40,352 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 20:51:05,936 - app.core.logging - ERROR - Unexpected error: 'NoneType' object has no attribute 'method'
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 82, in add_security_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 76, in rate_limit_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\trustedhost.py", line 36, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\app\core\metrics.py", line 63, in wrapper
+    method=kwargs.get('request').method,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'method'
+2025-06-16 20:58:26,367 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-16 20:58:42,850 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 20:58:42,851 - app.core.logging - INFO - Environment: development
+2025-06-16 20:58:42,852 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 21:02:11,777 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-16 21:02:25,063 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 21:02:25,064 - app.core.logging - INFO - Environment: development
+2025-06-16 21:02:25,065 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 21:54:13,964 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-16 21:54:20,782 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 21:54:20,783 - app.core.logging - INFO - Environment: development
+2025-06-16 21:54:20,784 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 21:54:24,383 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-16 21:54:36,217 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 21:54:36,217 - app.core.logging - INFO - Environment: development
+2025-06-16 21:54:36,219 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 22:09:02,030 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-16 22:09:10,485 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 22:09:10,487 - app.core.logging - INFO - Environment: development
+2025-06-16 22:09:10,487 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 22:09:14,298 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 22:09:14,298 - app.core.logging - INFO - Environment: development
+2025-06-16 22:09:14,299 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 22:09:24,647 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-16 22:09:29,377 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 22:09:29,377 - app.core.logging - INFO - Environment: development
+2025-06-16 22:09:29,379 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 22:09:33,500 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 22:09:33,501 - app.core.logging - INFO - Environment: development
+2025-06-16 22:09:33,502 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 22:09:36,915 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 22:09:36,916 - app.core.logging - INFO - Environment: development
+2025-06-16 22:09:36,917 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 22:09:39,411 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-16 22:09:55,334 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 22:09:55,336 - app.core.logging - INFO - Environment: development
+2025-06-16 22:09:55,337 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 22:10:29,237 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:10:29,241 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'cap@gmail.com'}
+2025-06-16 22:10:29,242 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:10:29,246 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:10:29,247 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: cap@gmail.com
+2025-06-16 22:10:29,272 - app.api.endpoints.auth - DEBUG - No existing user found with this email
+2025-06-16 22:10:29,273 - app.api.endpoints.auth - DEBUG - Attempting to create new user
+2025-06-16 22:10:30,073 - app.api.endpoints.auth - INFO - Successfully created user with email: cap@gmail.com
+2025-06-16 22:10:30,078 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:10:30,080 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'cap@gmail.com'}
+2025-06-16 22:10:30,080 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:10:30,083 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:10:30,084 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: cap@gmail.com
+2025-06-16 22:10:30,087 - app.api.endpoints.auth - WARNING - User with email cap@gmail.com already exists
+2025-06-16 22:10:30,091 - app.core.logging - ERROR - Unexpected error: 'NoneType' object has no attribute 'method'
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 85, in add_security_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 79, in rate_limit_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\trustedhost.py", line 36, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\app\core\metrics.py", line 63, in wrapper
+    method=kwargs.get('request').method,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'method'
+2025-06-16 22:10:30,166 - app.core.logging - ERROR - Unexpected error: 'NoneType' object has no attribute 'method'
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 85, in add_security_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 79, in rate_limit_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\trustedhost.py", line 36, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\app\core\metrics.py", line 63, in wrapper
+    method=kwargs.get('request').method,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'method'
+2025-06-16 22:10:31,486 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:10:31,487 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'cap@gmail.com'}
+2025-06-16 22:10:31,488 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:10:31,492 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:10:31,493 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: cap@gmail.com
+2025-06-16 22:10:31,497 - app.api.endpoints.auth - WARNING - User with email cap@gmail.com already exists
+2025-06-16 22:10:31,499 - app.core.logging - ERROR - Unexpected error: 'NoneType' object has no attribute 'method'
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 85, in add_security_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 79, in rate_limit_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\trustedhost.py", line 36, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\app\core\metrics.py", line 63, in wrapper
+    method=kwargs.get('request').method,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'method'
+2025-06-16 22:10:31,683 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:10:31,685 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'cap@gmail.com'}
+2025-06-16 22:10:31,686 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:10:31,690 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:10:31,691 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: cap@gmail.com
+2025-06-16 22:10:31,696 - app.api.endpoints.auth - WARNING - User with email cap@gmail.com already exists
+2025-06-16 22:10:31,699 - app.core.logging - ERROR - Unexpected error: 'NoneType' object has no attribute 'method'
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 85, in add_security_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 79, in rate_limit_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\trustedhost.py", line 36, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\app\core\metrics.py", line 63, in wrapper
+    method=kwargs.get('request').method,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'method'
+2025-06-16 22:10:31,754 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:10:31,755 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'cap@gmail.com'}
+2025-06-16 22:10:31,757 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:10:31,759 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:10:31,760 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: cap@gmail.com
+2025-06-16 22:10:31,762 - app.api.endpoints.auth - WARNING - User with email cap@gmail.com already exists
+2025-06-16 22:10:31,765 - app.core.logging - ERROR - Unexpected error: 'NoneType' object has no attribute 'method'
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 85, in add_security_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 79, in rate_limit_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\trustedhost.py", line 36, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\app\core\metrics.py", line 63, in wrapper
+    method=kwargs.get('request').method,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'method'
+2025-06-16 22:10:34,807 - app.core.logging - ERROR - Unexpected error: 'NoneType' object has no attribute 'method'
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 85, in add_security_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 79, in rate_limit_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\trustedhost.py", line 36, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\app\core\metrics.py", line 63, in wrapper
+    method=kwargs.get('request').method,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'method'
+2025-06-16 22:11:36,598 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:11:36,604 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 's@gmail.com'}
+2025-06-16 22:11:36,607 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:11:36,631 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:11:36,632 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: s@gmail.com
+2025-06-16 22:11:36,647 - app.api.endpoints.auth - DEBUG - No existing user found with this email
+2025-06-16 22:11:36,649 - app.api.endpoints.auth - DEBUG - Attempting to create new user
+2025-06-16 22:11:37,122 - app.api.endpoints.auth - INFO - Successfully created user with email: s@gmail.com
+2025-06-16 22:11:37,125 - app.core.logging - ERROR - Unexpected error: 'NoneType' object has no attribute 'method'
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 85, in add_security_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 79, in rate_limit_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\trustedhost.py", line 36, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\app\core\metrics.py", line 63, in wrapper
+    method=kwargs.get('request').method,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'method'
+2025-06-16 22:14:59,846 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:14:59,847 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'test@example.com'}
+2025-06-16 22:14:59,848 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:14:59,850 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:14:59,850 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: test@example.com
+2025-06-16 22:14:59,853 - app.api.endpoints.auth - WARNING - User with email test@example.com already exists
+2025-06-16 22:14:59,856 - app.core.logging - ERROR - Unexpected error: 'NoneType' object has no attribute 'method'
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 85, in add_security_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 79, in rate_limit_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\trustedhost.py", line 36, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\app\core\metrics.py", line 63, in wrapper
+    method=kwargs.get('request').method,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'method'
+2025-06-16 22:18:26,583 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-16 22:19:02,211 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 22:19:02,212 - app.core.logging - INFO - Environment: development
+2025-06-16 22:19:02,213 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 22:19:30,645 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-16 22:19:34,574 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 22:19:34,575 - app.core.logging - INFO - Environment: development
+2025-06-16 22:19:34,576 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 22:20:01,145 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-16 22:20:29,734 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 22:20:29,735 - app.core.logging - INFO - Environment: development
+2025-06-16 22:20:29,737 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 22:20:34,205 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:20:34,208 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'test@example.com'}
+2025-06-16 22:20:34,208 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:20:34,211 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:20:34,212 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: test@example.com
+2025-06-16 22:20:34,254 - app.api.endpoints.auth - WARNING - User with email test@example.com already exists
+2025-06-16 22:20:50,170 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:20:50,171 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'sid@gmail.com'}
+2025-06-16 22:20:50,172 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:20:50,174 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:20:50,175 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: sid@gmail.com
+2025-06-16 22:20:50,178 - app.api.endpoints.auth - DEBUG - No existing user found with this email
+2025-06-16 22:20:50,179 - app.api.endpoints.auth - DEBUG - Attempting to create new user
+2025-06-16 22:20:50,632 - app.api.endpoints.auth - INFO - Successfully created user with email: sid@gmail.com
+2025-06-16 22:20:50,635 - app.core.logging - ERROR - Unexpected error: 'User' object has no attribute 'status_code'
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 85, in add_security_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 79, in rate_limit_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\trustedhost.py", line 36, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\app\core\metrics.py", line 59, in wrapper
+    raise e
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\app\core\metrics.py", line 56, in wrapper
+    status = response.status_code
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'status_code'
+2025-06-16 22:21:21,967 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:21:21,968 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'sid@gmail.com'}
+2025-06-16 22:21:21,968 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:21:21,972 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:21:21,973 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: sid@gmail.com
+2025-06-16 22:21:21,978 - app.api.endpoints.auth - WARNING - User with email sid@gmail.com already exists
+2025-06-16 22:22:06,777 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:22:06,778 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'capam@gmail.com'}
+2025-06-16 22:22:06,779 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:22:06,782 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:22:06,784 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: capam@gmail.com
+2025-06-16 22:22:06,789 - app.api.endpoints.auth - DEBUG - No existing user found with this email
+2025-06-16 22:22:06,795 - app.api.endpoints.auth - DEBUG - Attempting to create new user
+2025-06-16 22:22:07,216 - app.api.endpoints.auth - INFO - Successfully created user with email: capam@gmail.com
+2025-06-16 22:22:07,218 - app.core.logging - ERROR - Unexpected error: 'User' object has no attribute 'status_code'
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 85, in add_security_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 178, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\main.py", line 79, in rate_limit_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\trustedhost.py", line 36, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\app\core\metrics.py", line 59, in wrapper
+    raise e
+  File "C:\Users\DELL\.vscode\ProblemStatementFinder\backend\app\core\metrics.py", line 56, in wrapper
+    status = response.status_code
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'status_code'
+2025-06-16 22:22:08,594 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:22:08,595 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'capam@gmail.com'}
+2025-06-16 22:22:08,596 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:22:08,597 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:22:08,598 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: capam@gmail.com
+2025-06-16 22:22:08,600 - app.api.endpoints.auth - WARNING - User with email capam@gmail.com already exists
+2025-06-16 22:22:09,435 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:22:09,437 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'capam@gmail.com'}
+2025-06-16 22:22:09,438 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:22:09,440 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:22:09,442 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: capam@gmail.com
+2025-06-16 22:22:09,444 - app.api.endpoints.auth - WARNING - User with email capam@gmail.com already exists
+2025-06-16 22:22:09,452 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:22:09,454 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'capam@gmail.com'}
+2025-06-16 22:22:09,455 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:22:09,463 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:22:09,465 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: capam@gmail.com
+2025-06-16 22:22:09,467 - app.api.endpoints.auth - WARNING - User with email capam@gmail.com already exists
+2025-06-16 22:22:09,499 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:22:09,500 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'capam@gmail.com'}
+2025-06-16 22:22:09,501 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:22:09,503 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:22:09,505 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: capam@gmail.com
+2025-06-16 22:22:09,514 - app.api.endpoints.auth - WARNING - User with email capam@gmail.com already exists
+2025-06-16 22:22:09,629 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:22:09,630 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'capam@gmail.com'}
+2025-06-16 22:22:09,631 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:22:09,633 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:22:09,634 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: capam@gmail.com
+2025-06-16 22:22:09,637 - app.api.endpoints.auth - WARNING - User with email capam@gmail.com already exists
+2025-06-16 22:22:09,840 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:22:09,841 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'capam@gmail.com'}
+2025-06-16 22:22:09,842 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:22:09,844 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:22:09,845 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: capam@gmail.com
+2025-06-16 22:22:09,847 - app.api.endpoints.auth - WARNING - User with email capam@gmail.com already exists
+2025-06-16 22:25:41,982 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-16 22:25:47,398 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 22:25:47,399 - app.core.logging - INFO - Environment: development
+2025-06-16 22:25:47,399 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 22:25:54,599 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-06-16 22:26:03,856 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-16 22:26:03,857 - app.core.logging - INFO - Environment: development
+2025-06-16 22:26:03,857 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-16 22:26:33,397 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:26:33,398 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'savit@gm.com'}
+2025-06-16 22:26:33,400 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:26:33,405 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:26:33,406 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: savit@gm.com
+2025-06-16 22:26:33,429 - app.api.endpoints.auth - DEBUG - No existing user found with this email
+2025-06-16 22:26:33,430 - app.api.endpoints.auth - DEBUG - Attempting to create new user
+2025-06-16 22:26:33,881 - app.api.endpoints.auth - INFO - Successfully created user with email: savit@gm.com
+2025-06-16 22:26:47,231 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:26:47,232 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'sid@gmail.com'}
+2025-06-16 22:26:47,232 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:26:47,234 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:26:47,235 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: sid@gmail.com
+2025-06-16 22:26:47,237 - app.api.endpoints.auth - WARNING - User with email sid@gmail.com already exists
+2025-06-16 22:26:56,791 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-16 22:26:56,792 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'sangmarmar@gmail.com'}
+2025-06-16 22:26:56,792 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-16 22:26:56,794 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-16 22:26:56,795 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: sangmarmar@gmail.com
+2025-06-16 22:26:56,800 - app.api.endpoints.auth - DEBUG - No existing user found with this email
+2025-06-16 22:26:56,801 - app.api.endpoints.auth - DEBUG - Attempting to create new user
+2025-06-16 22:26:57,068 - app.api.endpoints.auth - INFO - Successfully created user with email: sangmarmar@gmail.com

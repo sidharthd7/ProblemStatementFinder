@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.openapi.utils import get_openapi
+from fastapi.middleware.trustedhost import TrustedHostMiddleware
 from sqlalchemy.orm import Session
 from typing import List, Optional
 from datetime import datetime
@@ -13,6 +14,8 @@ from app.api.endpoints import auth, teams, problems, matching
 from app.core.config import settings
 from app.db.session import get_db
 from app.core.exceptions import DatabaseError, FileProcessingError
+from app.core.rate_limit import rate_limiter
+from app.core.logging import logger
 
 # services
 from app.services.file_processor import FileProcessorService
@@ -22,22 +25,16 @@ from app.services.problem_matcher import match_problems_to_team
 from app.schemas.problem import Problem, ProblemMatch
 from app.schemas.team import Team, TeamCreate
 
-import logging
-
-# logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    
     logger.info("Starting up Problem Statement Finder API")
+    logger.info(f"Environment: {settings.ENVIRONMENT}")
+    logger.info(f"API Version: {settings.VERSION}")
     
     yield
     
     logger.info("Shutting down Problem Statement Finder API")
-        
-    
+
 # FastAPI app
 app = FastAPI(
     title="Problem Statement Finder",
@@ -50,7 +47,7 @@ app = FastAPI(
     * Match problems with teams based on skills
     * User authentication and authorization
     """,
-    version="1.0.0",
+    version=settings.VERSION,
     docs_url="/api/docs",
     redoc_url="/api/redoc",
     openapi_url="/api/openapi.json",
@@ -60,14 +57,38 @@ app = FastAPI(
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",  
-        "http://localhost:5173"   
-    ],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["*"]
 )
+
+# Security Middleware
+app.add_middleware(
+    TrustedHostMiddleware,
+    allowed_hosts=settings.ALLOWED_HOSTS
+)
+
+
+
+# Rate Limiting Middleware
+@app.middleware("http")
+async def rate_limit_middleware(request, call_next):
+    await rate_limiter.check_rate_limit(request)
+    response = await call_next(request)
+    return response
+
+# Security Headers Middleware
+@app.middleware("http")
+async def add_security_headers(request, call_next):
+    response = await call_next(request)
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["X-Frame-Options"] = "DENY"
+    response.headers["X-XSS-Protection"] = "1; mode=block"
+    response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
+    response.headers["Content-Security-Policy"] = "default-src 'self'"
+    return response
 
 # routers 
 app.include_router(
@@ -97,14 +118,13 @@ app.include_router(
 # Initialize services
 file_processor = FileProcessorService()
 
-
 def custom_openapi():
     if app.openapi_schema:
         return app.openapi_schema
 
     openapi_schema = get_openapi(
         title="Problem Statement Finder API",
-        version="1.0.0",
+        version=settings.VERSION,
         description="""
         The Problem Statement Finder API helps match teams with suitable problem statements
         based on their technical skills and requirements.
@@ -116,6 +136,14 @@ def custom_openapi():
         1. Create an account using `/auth/signup`
         2. Get your token using `/auth/login`
         3. Include the token in the Authorization header: `Bearer <your_token>`
+        
+        ## Security
+        
+        The API implements several security measures:
+        * Rate limiting to prevent abuse
+        * CORS protection
+        * Security headers
+        * Trusted host validation
         
         ## File Upload
         
@@ -207,6 +235,7 @@ async def health_check():
     return {
         "status": "healthy",
         "version": settings.VERSION,
+        "environment": settings.ENVIRONMENT,
         "timestamp": datetime.utcnow().isoformat()
     }
 
@@ -227,6 +256,7 @@ async def root():
     return {
         "name": "Problem Statement Finder API",
         "version": settings.VERSION,
+        "environment": settings.ENVIRONMENT,
         "documentation": "/api/docs",
         "redoc": "/api/redoc"
     }
@@ -257,9 +287,9 @@ async def file_processing_exception_handler(request, exc):
 @app.exception_handler(Exception)
 async def global_exception_handler(request, exc):
     """
-    Handle any uncaught exceptions
+    Handle all other exceptions
     """
-    logger.error(f"Uncaught exception: {str(exc)}")
+    logger.error(f"Unexpected error: {str(exc)}", exc_info=True)
     return {
         "detail": "An unexpected error occurred",
         "status_code": status.HTTP_500_INTERNAL_SERVER_ERROR
