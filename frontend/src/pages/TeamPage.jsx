@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getTeams, createTeam } from "../utils/api";
+import { getTeams, createTeam, deleteTeam } from "../utils/api";
 import { useNavigate } from "react-router-dom";
 
 export default function TeamPage() {
@@ -16,6 +16,11 @@ export default function TeamPage() {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
   const navigate = useNavigate();
+
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    navigate('/login');
+  };
 
   // Fetch teams on mount or after creation
   const fetchTeams = () => {
@@ -72,17 +77,39 @@ export default function TeamPage() {
     }
   };
 
+  const handleDeleteTeam = async () => {
+    if (!selectedTeam) return;
+    setError("");
+    setSuccess("");
+    try {
+      await deleteTeam(selectedTeam.id);
+      setSuccess("Team deleted!");
+      setSelectedTeam(null);
+      fetchTeams();
+    } catch (err) {
+      setError(err.detail || "Delete team failed");
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gray-100">
       {/* Navbar */}
       <div className="flex justify-between items-center px-8 py-4 bg-white shadow">
         <h1 className="text-2xl font-bold text-blue-700">Teams</h1>
-        <button
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
-          onClick={()=> navigate("/")}
-        >
-          Back to Home
-        </button>
+        <div className="flex gap-4">
+          <button
+            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+            onClick={()=> navigate("/")}
+          >
+            Back to Home
+          </button>
+          <button
+            className="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700 transition"
+            onClick={handleLogout}
+          >
+            Logout
+          </button>
+        </div>
       </div>
 
       <div className="max-w-4xl mx-auto mt-10 bg-white p-8 rounded-lg shadow flex flex-col md:flex-row gap-8">
@@ -176,6 +203,14 @@ export default function TeamPage() {
                 <div className="mb-2"><b>Deadline:</b> {selectedTeam.deadline.slice(0, 10)}</div>
               )}
               <div className="mb-2"><b>Created At:</b> {selectedTeam.created_at ? selectedTeam.created_at.slice(0, 10) : "N/A"}</div>
+              <button
+                className="mt-4 py-2 px-4 bg-red-600 text-white rounded hover:bg-red-700 transition"
+                onClick={handleDeleteTeam}
+              >
+                Delete Team
+              </button>
+              {error && <div className="text-red-600 mt-2">{error}</div>}
+              {success && <div className="text-green-600 mt-2">{success}</div>}
             </div>
           ) : (
             <div className="text-gray-500">Select a team to see details.</div>

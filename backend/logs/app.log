@@ -1544,3 +1544,58 @@ AttributeError: 'User' object has no attribute 'status_code'
 2025-06-16 22:26:56,800 - app.api.endpoints.auth - DEBUG - No existing user found with this email
 2025-06-16 22:26:56,801 - app.api.endpoints.auth - DEBUG - Attempting to create new user
 2025-06-16 22:26:57,068 - app.api.endpoints.auth - INFO - Successfully created user with email: sangmarmar@gmail.com
+2025-06-17 19:35:26,056 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-06-17 19:35:26,058 - app.core.logging - INFO - Environment: development
+2025-06-17 19:35:26,059 - app.core.logging - INFO - API Version: 1.0.0
+2025-06-17 19:36:11,171 - app.api.endpoints.auth - DEBUG - Starting signup process
+2025-06-17 19:36:11,175 - app.api.endpoints.auth - DEBUG - Received user data: {'email': 'capam@gm.com'}
+2025-06-17 19:36:11,176 - app.api.endpoints.auth - DEBUG - Testing database connection...
+2025-06-17 19:36:11,182 - app.api.endpoints.auth - DEBUG - Database connection successful
+2025-06-17 19:36:11,183 - app.api.endpoints.auth - DEBUG - Checking if user exists with email: capam@gm.com
+2025-06-17 19:36:11,209 - app.api.endpoints.auth - DEBUG - No existing user found with this email
+2025-06-17 19:36:11,210 - app.api.endpoints.auth - DEBUG - Attempting to create new user
+2025-06-17 19:36:11,817 - app.api.endpoints.auth - INFO - Successfully created user with email: capam@gm.com
+2025-06-17 19:44:05,868 - app.api.endpoints.problems - INFO - Successfully processed 20 problems
+2025-06-17 19:44:08,640 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-06-17 19:44:09,167 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-06-17 19:44:12,929 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:44:19,072 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:44:22,347 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:44:26,236 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:44:30,770 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:44:35,068 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:44:38,132 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:44:42,041 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:44:45,048 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:44:54,169 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:45:05,386 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:45:14,373 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:45:17,723 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:45:21,801 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:45:25,303 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:45:36,686 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:45:46,141 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:45:50,376 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:45:58,125 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:46:01,995 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:46:05,047 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:46:24,695 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:46:27,819 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:46:38,873 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:46:41,975 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:46:50,569 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:46:56,619 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:47:01,790 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:47:04,873 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:47:17,035 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:47:22,616 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:47:26,521 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:47:31,035 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:47:34,931 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:47:39,044 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:47:54,252 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:47:57,478 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:48:02,631 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:48:05,738 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 19:48:12,468 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-17 20:17:48,675 - app.core.logging - INFO - Shutting down Problem Statement Finder API

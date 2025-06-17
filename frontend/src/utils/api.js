@@ -69,3 +69,13 @@ export async function uploadProblems(file, teamId, signal) {
   }
   return res.json();
 }
+
+// Delete Team
+export async function deleteTeam(teamId) {
+  const res = await fetch(`${API_BASE_URL}/teams/${teamId}`, {
+    method: 'DELETE',
+    headers: { ...getAuthHeaders() },
+  });
+  if (!res.ok) throw await res.json();
+  return true;
+}

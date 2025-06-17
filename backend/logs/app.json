@@ -497,3 +497,7 @@
 {"timestamp": "2025-06-16T16:56:03.856446", "level": "INFO", "message": "Starting up Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 30}
 {"timestamp": "2025-06-16T16:56:03.857450", "level": "INFO", "message": "Environment: development", "module": "main", "function": "lifespan", "line": 31}
 {"timestamp": "2025-06-16T16:56:03.858451", "level": "INFO", "message": "API Version: 1.0.0", "module": "main", "function": "lifespan", "line": 32}
+{"timestamp": "2025-06-17T14:05:26.056906", "level": "INFO", "message": "Starting up Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 30}
+{"timestamp": "2025-06-17T14:05:26.058562", "level": "INFO", "message": "Environment: development", "module": "main", "function": "lifespan", "line": 31}
+{"timestamp": "2025-06-17T14:05:26.060574", "level": "INFO", "message": "API Version: 1.0.0", "module": "main", "function": "lifespan", "line": 32}
+{"timestamp": "2025-06-17T14:47:48.679563", "level": "INFO", "message": "Shutting down Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 36}
