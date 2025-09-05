@@ -3,14 +3,9 @@ nixPkgs = ["python39", "pip", "gcc", "gccStdenv"]
 
 [phases.install]
 cmds = [
-  "pip install --upgrade pip",
-  "pip install -r requirements.txt"
-]
-
-[phases.build]
-cmds = [
-  "echo 'Build phase completed'"
+  "python3 -m pip install --upgrade pip",
+  "python3 -m pip install -r requirements.txt"
 ]
 
 [start]
-cmd = "uvicorn main:app --host 0.0.0.0 --port $PORT"
+cmd = "python3 -m uvicorn main:app --host 0.0.0.0 --port $PORT"
