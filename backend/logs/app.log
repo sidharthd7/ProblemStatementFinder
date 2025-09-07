@@ -1654,3 +1654,6 @@ AttributeError: 'User' object has no attribute 'status_code'
 2025-07-29 15:22:05,912 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
 2025-07-29 15:22:09,989 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
 2025-07-29 15:26:10,422 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-09-07 22:44:54,271 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-09-07 22:44:54,271 - app.core.logging - INFO - Environment: development
+2025-09-07 22:44:54,271 - app.core.logging - INFO - API Version: 1.0.0
