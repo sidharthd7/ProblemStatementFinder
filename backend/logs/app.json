@@ -508,3 +508,25 @@
 {"timestamp": "2025-09-07T17:14:54.271248", "level": "INFO", "message": "Starting up Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 30}
 {"timestamp": "2025-09-07T17:14:54.271248", "level": "INFO", "message": "Environment: development", "module": "main", "function": "lifespan", "line": 31}
 {"timestamp": "2025-09-07T17:14:54.276993", "level": "INFO", "message": "API Version: 1.0.0", "module": "main", "function": "lifespan", "line": 32}
+{"timestamp": "2025-09-07T18:11:29.015837", "level": "INFO", "message": "Shutting down Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 36}
+{"timestamp": "2025-09-07T18:11:38.542149", "level": "INFO", "message": "Starting up Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 30}
+{"timestamp": "2025-09-07T18:11:38.544423", "level": "INFO", "message": "Environment: development", "module": "main", "function": "lifespan", "line": 31}
+{"timestamp": "2025-09-07T18:11:38.546180", "level": "INFO", "message": "API Version: 1.0.0", "module": "main", "function": "lifespan", "line": 32}
+{"timestamp": "2025-09-07T18:14:08.095697", "level": "INFO", "message": "Shutting down Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 36}
+{"timestamp": "2025-09-07T18:14:16.328537", "level": "INFO", "message": "Starting up Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 30}
+{"timestamp": "2025-09-07T18:14:16.329418", "level": "INFO", "message": "Environment: development", "module": "main", "function": "lifespan", "line": 31}
+{"timestamp": "2025-09-07T18:14:16.333984", "level": "INFO", "message": "API Version: 1.0.0", "module": "main", "function": "lifespan", "line": 32}
+{"timestamp": "2025-09-07T18:14:23.192800", "level": "INFO", "message": "Starting up Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 30}
+{"timestamp": "2025-09-07T18:14:23.194808", "level": "INFO", "message": "Environment: development", "module": "main", "function": "lifespan", "line": 31}
+{"timestamp": "2025-09-07T18:14:23.194808", "level": "INFO", "message": "API Version: 1.0.0", "module": "main", "function": "lifespan", "line": 32}
+{"timestamp": "2025-09-07T18:14:49.423442", "level": "INFO", "message": "Shutting down Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 36}
+{"timestamp": "2025-09-07T18:15:07.132906", "level": "INFO", "message": "Starting up Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 30}
+{"timestamp": "2025-09-07T18:15:07.132906", "level": "INFO", "message": "Environment: development", "module": "main", "function": "lifespan", "line": 31}
+{"timestamp": "2025-09-07T18:15:07.132906", "level": "INFO", "message": "API Version: 1.0.0", "module": "main", "function": "lifespan", "line": 32}
+{"timestamp": "2025-09-07T18:15:14.958051", "level": "INFO", "message": "Starting up Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 30}
+{"timestamp": "2025-09-07T18:15:14.958051", "level": "INFO", "message": "Environment: development", "module": "main", "function": "lifespan", "line": 31}
+{"timestamp": "2025-09-07T18:15:14.961813", "level": "INFO", "message": "API Version: 1.0.0", "module": "main", "function": "lifespan", "line": 32}
+{"timestamp": "2025-09-07T18:15:26.007881", "level": "INFO", "message": "Shutting down Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 36}
+{"timestamp": "2025-09-07T18:15:41.438532", "level": "INFO", "message": "Starting up Problem Statement Finder API", "module": "main", "function": "lifespan", "line": 30}
+{"timestamp": "2025-09-07T18:15:41.444712", "level": "INFO", "message": "Environment: development", "module": "main", "function": "lifespan", "line": 31}
+{"timestamp": "2025-09-07T18:15:41.447154", "level": "INFO", "message": "API Version: 1.0.0", "module": "main", "function": "lifespan", "line": 32}

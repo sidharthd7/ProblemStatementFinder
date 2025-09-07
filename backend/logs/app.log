@@ -1657,3 +1657,25 @@ AttributeError: 'User' object has no attribute 'status_code'
 2025-09-07 22:44:54,271 - app.core.logging - INFO - Starting up Problem Statement Finder API
 2025-09-07 22:44:54,271 - app.core.logging - INFO - Environment: development
 2025-09-07 22:44:54,271 - app.core.logging - INFO - API Version: 1.0.0
+2025-09-07 23:41:28,997 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-09-07 23:41:38,542 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-09-07 23:41:38,544 - app.core.logging - INFO - Environment: development
+2025-09-07 23:41:38,544 - app.core.logging - INFO - API Version: 1.0.0
+2025-09-07 23:44:08,093 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-09-07 23:44:16,321 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-09-07 23:44:16,329 - app.core.logging - INFO - Environment: development
+2025-09-07 23:44:16,332 - app.core.logging - INFO - API Version: 1.0.0
+2025-09-07 23:44:23,190 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-09-07 23:44:23,192 - app.core.logging - INFO - Environment: development
+2025-09-07 23:44:23,194 - app.core.logging - INFO - API Version: 1.0.0
+2025-09-07 23:44:49,423 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-09-07 23:45:07,132 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-09-07 23:45:07,132 - app.core.logging - INFO - Environment: development
+2025-09-07 23:45:07,132 - app.core.logging - INFO - API Version: 1.0.0
+2025-09-07 23:45:14,958 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-09-07 23:45:14,958 - app.core.logging - INFO - Environment: development
+2025-09-07 23:45:14,961 - app.core.logging - INFO - API Version: 1.0.0
+2025-09-07 23:45:26,006 - app.core.logging - INFO - Shutting down Problem Statement Finder API
+2025-09-07 23:45:41,438 - app.core.logging - INFO - Starting up Problem Statement Finder API
+2025-09-07 23:45:41,444 - app.core.logging - INFO - Environment: development
+2025-09-07 23:45:41,447 - app.core.logging - INFO - API Version: 1.0.0

@@ -63,4 +63,4 @@ class RedisCache:
             return False
 
 # Initialize cache
-cache = RedisCache() 
+# cache = RedisCache() 
